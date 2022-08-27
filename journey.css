@@ -1,0 +1,59 @@
+ul.journey-container {
+    width: 100%;
+    padding: 0 1rem;
+}
+
+ul.journey-container li {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: -0.5rem;
+}
+
+figure.journey-bar img {
+    width: 1.5rem;
+}
+
+.card.module {
+    width: 80%;
+}
+
+.card.module .card-caption span {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.card.module .card-caption h3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card.module .card-caption h3 img {
+    display: inline-block;
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+button.go {
+    height: 3rem;
+    color: #ed0722;
+    font-weight: 800;
+}
+
+button.go:hover img {
+    transform: scale(1.05);
+    margin-right: -0.2rem;
+    margin-left: 0.2rem;
+}
+
+button.go img {
+    height: 100%;
+    width: auto;
+    transition: all ease 0.2s;
+}
