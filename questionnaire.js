@@ -32,11 +32,24 @@ const q = {
         quesThreeElem.style.display = "block";
     },
 
-    q3: function (choice) {
-        console.log("q3: " + JSON.stringify(choice))
+    q3: function (addProduct) {
+        console.log("q3 - add product: " + JSON.stringify(addProduct))
+        if (addProduct) {
+            console.log("add product");
+        }
+        else {
+            quesThreeElem.style.display = "none";
+            quesFourElem.style.display = "block";
+        }
     },
 
-    q4: function (choice) {
-        console.log("q4: " + JSON.stringify(choice))
+    q4: function (connectFI) {
+        console.log("q4: " + JSON.stringify(connectFI));
+        if (connectFI) {
+            console.log("connect FI");
+        }
+        else {
+            window.location.assign("journey.html");
+        }
     }
 }

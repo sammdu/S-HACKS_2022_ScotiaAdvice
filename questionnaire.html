@@ -53,7 +53,7 @@
                 </h1>
             </header>
             <span></span>
-            <h2 class="ques-title">Your journey</h2>
+            <h2 class="ques-title">My journey</h2>
             <h3 class="question-title">
                 Would you like to track your income and spending every month?
             </h3>
@@ -84,7 +84,7 @@
                 </h1>
             </header>
             <span></span>
-            <h2 class="ques-title">Your journey</h2>
+            <h2 class="ques-title">My journey</h2>
             <h3 class="question-title">
                 Are you interested in creating a monthly budget to plan out your spending?
             </h3>
@@ -115,7 +115,7 @@
                 </h1>
             </header>
             <span></span>
-            <h2 class="ques-title">Your journey</h2>
+            <h2 class="ques-title">My journey</h2>
             <h3 class="question-title">
                 Looks like you have the following credit balances with Scotiabank:
             </h3>
@@ -134,7 +134,7 @@
             <h3 class="question-title">
                 Do you have other credit products you'd like to add?
             </h3>
-            <div class="card ques-options" onclick="q.q2(false);">
+            <div class="card ques-options" onclick="q.q3(true);">
                 <figure>
                     <img src="assets/scotia-add.svg" alt="icon">
                 </figure>
@@ -142,7 +142,53 @@
                     <h3>Add credit product</h3>
                 </aside>
             </div>
-            <div class="card ques-options" onclick="q.q2(true);">
+            <div class="card ques-options" onclick="q.q3(false);">
+                <figure>
+                    <img src="assets/scotia-accept.svg" alt="icon">
+                </figure>
+                <aside>
+                    <h3>Looks good!</h3>
+                </aside>
+            </div>
+        </section>
+
+        <!--  -->
+        <section id="quesFour" class="container-center" style="display: none;">
+            <header>
+                <img src="assets/scotia-logo.svg" alt="Scotia" class="logo">
+                <h1>
+                    <center>Advice+</center>
+                </h1>
+            </header>
+            <span></span>
+            <h2 class="ques-title">My journey</h2>
+            <h3 class="question-title">
+                Looks like you have the following depository and investment accounts Scotiabank:
+            </h3>
+            <ul>
+                <li>
+                    <h4>Scotia Chequing</h4>
+                    <p>Amount: $1,306.54</p>
+                    <p>Interest rate: 0%</p>
+                </li>
+                <li>
+                    <h4>Scotia Saving</h4>
+                    <p>Amount: $5,014.75</p>
+                    <p>Interest rate: 1.25%</p>
+                </li>
+            </ul>
+            <h3 class="question-title">
+                Do you have other depository accounts or investment products you'd like to add?
+            </h3>
+            <div class="card ques-options" onclick="q.q4(true);">
+                <figure>
+                    <img src="assets/scotia-add.svg" alt="icon">
+                </figure>
+                <aside>
+                    <h3>Connect with financial institution</h3>
+                </aside>
+            </div>
+            <div class="card ques-options" onclick="q.q4(false);">
                 <figure>
                     <img src="assets/scotia-accept.svg" alt="icon">
                 </figure>
