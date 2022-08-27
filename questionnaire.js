@@ -49,7 +49,11 @@ const q = {
             console.log("connect FI");
         }
         else {
-            window.location.assign("journey.html");
+            window.open("journey.html", "_self");
         }
     }
+}
+
+function getAdvisor() {
+    window.open("https://www.scotiabank.com/ca/en/personal/advice-plus/get-advice.html", '_blank');
 }
