@@ -30,7 +30,7 @@
                         <div class="card-caption">
                             <h3><img src="assets/scotia-coins.png" alt="icon">Track your money</h3>
                             <span>
-                                <button class="go">
+                                <button class="go" onclick="modCashFlow();">
                                     Continue
                                     <img src="assets/scotia-go.svg" alt="Right Arrow">
                                 </button>
@@ -46,7 +46,7 @@
                         <div class="card-caption">
                             <h3><img src="assets/scotia-pie.png" alt="icon">Create a budget</h3>
                             <span>
-                                <button class="go">
+                                <button class="go" onclick="modBudget();">
                                     Continue
                                     <img src="assets/scotia-go.svg" alt="Right Arrow">
                                 </button>
@@ -87,7 +87,28 @@
                     </div>
                 </li>
             </ul>
+        </section>
 
+        <!--  -->
+        <section id="trackMoney" class="container-center" style="display: none;">
+            <header>
+                <img src="assets/scotia-logo.svg" alt="Scotia" class="logo">
+                <h1>
+                    <center>Cashflow</center>
+                </h1>
+            </header>
+            <img src="assets/money-tracking-mock.png" alt="Mock track money" class="mock-fill">
+        </section>
+
+        <!--  -->
+        <section id="createBudget" class="container-center" style="display: none;">
+            <header>
+                <img src="assets/scotia-logo.svg" alt="Scotia" class="logo">
+                <h1>
+                    <center>Budget</center>
+                </h1>
+            </header>
+            <img src="assets/budget-mock.png" alt="Mock budget" class="mock-fill">
         </section>
     </main>
 
