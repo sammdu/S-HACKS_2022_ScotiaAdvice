@@ -128,6 +128,13 @@ section h2 {
     font-size: 1.2rem;
 }
 
+.card aside {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
 .card .card-caption {
     background-color: #fff;
     border-radius: 0.98rem;

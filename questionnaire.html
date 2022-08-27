@@ -3,7 +3,7 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your Journey | S:\HA&lt;KS 2022</title>
+    <title>My Journey | S:\HA&lt;KS 2022</title>
     <link rel="shortcut icon" href="">
     <link rel="stylesheet" type="text/css" href="https://fontlibrary.org//face/hk-grotesk" />
     <link rel="stylesheet" type="text/css"
@@ -18,11 +18,11 @@
             <header>
                 <img src="assets/scotia-logo.svg" alt="Scotia" class="logo">
                 <h1>
-                    <center>Advice +</center>
+                    <center>Advice+</center>
                 </h1>
             </header>
             <span></span>
-            <h2 class="ques-title">Your journey</h2>
+            <h2 class="ques-title">My Journey</h2>
             <div class="card ques-options" onclick="startQues();">
                 <figure>
                     <img src="assets/scotia-idea.png" alt="icon">
@@ -42,7 +42,8 @@
                 </aside>
             </div>
         </section>
-        <section id="quesOne" class="container-center">
+
+        <section id="quesOne" class="container-center" style="display: none;">
             <header>
                 <img src="assets/scotia-logo.svg" alt="Scotia" class="logo">
                 <h1>
@@ -51,22 +52,53 @@
             </header>
             <span></span>
             <h2 class="ques-title">Your journey</h2>
-            <div class="card ques-options">
+            <h3 class="question-title">
+                Would you like to track your income and spending every month?
+            </h3>
+            <div class="card ques-options" onclick="q.q1(true);">
                 <figure>
-                    <img src="assets/scotia-idea.png" alt="icon">
+                    <img src="assets/scotia-accept.svg" alt="icon">
                 </figure>
                 <aside>
-                    <h3>Let us get to know you!</h3>
-                    <p>Complete an online profile to create your financial journey</p>
+                    <h3>Yes, sign me up!</h3>
                 </aside>
             </div>
-            <div class="card ques-options">
+            <div class="card ques-options" onclick="q.q1(false);">
                 <figure>
-                    <img src="assets/scotia-advisor.png" alt="icon">
+                    <img src="assets/scotia-decline.svg" alt="icon">
                 </figure>
                 <aside>
-                    <h3>Speak with an advisor.</h3>
-                    <p>Let us help you create a financial journey.</p>
+                    <h3>No need.</h3>
+                </aside>
+            </div>
+        </section>
+
+        <section id="quesTwo" class="container-center" style="display: none;">
+            <header>
+                <img src="assets/scotia-logo.svg" alt="Scotia" class="logo">
+                <h1>
+                    <center>Advice +</center>
+                </h1>
+            </header>
+            <span></span>
+            <h2 class="ques-title">Your journey</h2>
+            <h3 class="question-title">
+                Are you interested in creating a monthly budget to plan out your spending?
+            </h3>
+            <div class="card ques-options" onclick="q.q2(true);">
+                <figure>
+                    <img src="assets/scotia-accept.svg" alt="icon">
+                </figure>
+                <aside>
+                    <h3>Yes, let's do it!</h3>
+                </aside>
+            </div>
+            <div class="card ques-options" onclick="q.q2(false);">
+                <figure>
+                    <img src="assets/scotia-decline.svg" alt="icon">
+                </figure>
+                <aside>
+                    <h3>No need.</h3>
                 </aside>
             </div>
         </section>
