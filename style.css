@@ -1,0 +1,50 @@
+html {
+    background-color: #222;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'HKGroteskMedium';
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    height: 100%;
+}
+
+h1,
+h2 {
+    font-family: 'HKGroteskExtraBold';
+    font-weight: normal;
+    font-style: normal;
+}
+
+h3,
+h4 {
+    font-family: 'HKGroteskBold';
+    font-weight: bold;
+    font-style: normal;
+}
+
+main {
+    height: 100%;
+}
+
+main section {
+    background-color: #fff;
+    color: #000;
+}
+
+.container-center {
+    width: 25rem;
+    max-width: 100%;
+    height: 90%;
+    margin: 2rem auto;
+    border-radius: 1.5rem;
+}
+
+@media (max-height: 800px) {
+    .container-center {
+        margin: 0 auto;
+        height: 95%;
+    }
+}
