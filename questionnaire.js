@@ -26,6 +26,10 @@ const q = {
 
     q2: function (choice) {
         console.log("q2: " + JSON.stringify(choice))
+        this.answers.trackSpending = choice;
+
+        quesTwoElem.style.display = "none";
+        quesThreeElem.style.display = "block";
     },
 
     q3: function (choice) {

@@ -41,3 +41,15 @@ h3.question-title {
     font-size: 1.3rem;
     margin: 1.2rem;
 }
+
+ul {
+    margin: 1rem 2rem 2rem 2rem;
+}
+
+ul li {
+    margin-bottom: 1rem;
+}
+
+ul li h4 {
+    color: #ad0000;
+}
