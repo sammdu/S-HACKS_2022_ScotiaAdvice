@@ -2,7 +2,7 @@ html {
     background-color: #222;
     height: 100%;
     overflow: hidden;
-    font-family: 'HKGroteskMedium';
+    font-family: 'HKGroteskMedium', "SF Pro", "Segoe UI", Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-style: normal;
 }
@@ -13,14 +13,14 @@ body {
 
 h1,
 h2 {
-    font-family: 'HKGroteskExtraBold';
+    font-family: 'HKGroteskExtraBold', "SF Pro", "Segoe UI", Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-style: normal;
 }
 
 h3,
 h4 {
-    font-family: 'HKGroteskBold';
+    font-family: 'HKGroteskBold', "SF Pro", "Segoe UI", Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-style: normal;
 }
@@ -31,10 +31,17 @@ a {
     color: #3594b4;
     border-radius: 0.5rem;
     transition: all ease 0.25s;
+    border: 2px solid #ffffff00;
 }
 
 a:hover {
-    background-color: #e6f9ff;
+    background-color: #eefbff;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.08);
+    border: 2px solid #3594b4;
+}
+
+a:active {
+    box-shadow: none;
 }
 
 main {
@@ -43,7 +50,7 @@ main {
 
 main section {
     background-color: #fff;
-    color: #000;
+    color: #111;
 }
 
 .container-center {
@@ -86,13 +93,18 @@ section header h1 {
     padding-right: 4rem;
 }
 
+section h2 {
+    font-size: 1.4rem;
+}
+
 .card {
     border-radius: 1rem;
-    border: solid #ddd 1px;
+    border: 1px solid #ddd;
     background-color: #fafbfd;
     margin: 1rem;
     box-shadow: 0 0.4rem 0.6rem rgba(0, 0, 0, 0.10);
     padding: 1px;
+    transition: all ease 0.25s;
 }
 
 .card figure {
@@ -103,7 +115,7 @@ section header h1 {
     align-items: center;
 }
 
-.card figure img {
+.card.get-started figure img {
     width: 80%;
 }
 
