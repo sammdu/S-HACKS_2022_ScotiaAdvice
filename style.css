@@ -25,6 +25,18 @@ h4 {
     font-style: normal;
 }
 
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #3594b4;
+    border-radius: 0.5rem;
+    transition: all ease 0.25s;
+}
+
+a:hover {
+    background-color: #e6f9ff;
+}
+
 main {
     height: 100%;
 }
@@ -40,6 +52,7 @@ main section {
     height: 90%;
     margin: 2rem auto;
     border-radius: 1.5rem;
+    overflow-y: scroll;
 }
 
 @media (max-height: 800px) {
@@ -47,4 +60,73 @@ main section {
         margin: 0 auto;
         height: 95%;
     }
+}
+
+section header {
+    height: 5rem;
+    width: 100%;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: stretch;
+    box-shadow: 0 0.4rem 0.6rem rgba(0, 0, 0, 0.10);
+}
+
+section header img.logo {
+    height: 90%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+section header h1 {
+    font-size: 1.5rem;
+    width: 100%;
+    padding-right: 4rem;
+}
+
+.card {
+    border-radius: 1rem;
+    border: solid #ddd 1px;
+    background-color: #fafbfd;
+    margin: 1rem;
+    box-shadow: 0 0.4rem 0.6rem rgba(0, 0, 0, 0.10);
+    padding: 1px;
+}
+
+.card figure {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card figure img {
+    width: 80%;
+}
+
+.card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.card h4 {
+    font-size: 1.2rem;
+}
+
+.card .card-caption {
+    background-color: #fff;
+    border-radius: 0.98rem;
+    padding: 1rem;
+}
+
+.card .card-caption a {
+    width: 100%;
+    padding: 0.5rem 1rem;
+}
+
+.mock-fill {
+    width: 100%;
 }
